@@ -1,0 +1,192 @@
+{
+    "id": "123",
+    "type": "navigable",
+    "rules": [
+    ],
+    "steps": [{
+        "stepIdentifier": {
+            "id": "2"
+        },
+        "type": "question",
+        "title": "How long is the average shower in your household?",
+        "answerFormat": {
+            "type": "single",
+            "hint": "Be honest. Do you waste water taking long, hot showers? A 10-minute shower uses 25 gallons or more. Challenge yourself by keeping the time to the length of two songs.",
+            "textChoices": [{
+                "text": "UNDER 5 MIN",
+                "value": "UNDER 5 MIN"
+            },
+            {
+                "text": "5-10 MIN",
+                "value": "5-10 MIN"
+            },
+            {
+                "text": "11-15 MIN",
+                "value": "11-15 MIN"
+            },
+            {
+                "text": "OVER 15 MIN",
+                "value": "OVER 15 MIN"
+            }
+        ]
+        }
+    },
+    {
+        "stepIdentifier": {
+            "id": "3"
+        },
+        "type": "question",
+        "title": "Medication?",
+        "text": "Do you take baths? If so, how often?",
+        "answerFormat": {
+            "type": "single",
+            "positiveAnswer": "Yes",
+            "negativeAnswer": "No",
+            "result": "POSITIVE"
+        }
+    },
+    {
+        "stepIdentifier": {
+            "id": "4"
+        },
+        "type": "question",
+        "title": "Tell us about you",
+        "text": "How long do you leave your bathroom faucets running each day?",
+        "answerFormat": {
+            "type": "single",
+            "hint": "Be honest. Do you waste water taking long, hot showers? A 10-minute shower uses 25 gallons or more. Challenge yourself by keeping the time to the length of two songs.",
+            "textChoices": [{
+                "text": "UNDER 5 MIN",
+                "value": "UNDER 5 MIN"
+            },
+            {
+                "text": "5-10 MIN",
+                "value": "5-10 MIN"
+            },
+            {
+                "text": "11-15 MIN",
+                "value": "11-15 MIN"
+            },
+            {
+                "text": "OVER 15 MIN",
+                "value": "OVER 15 MIN"
+            }
+        ]
+        }
+    },
+    {
+        "stepIdentifier": {
+            "id": "5"
+        },
+        "type": "question",
+        "title": "Do you 'let it mellow?'",
+        "answerFormat": {
+            "type": "scale",
+            "step": 1,
+            "minimumValue": 1,
+            "maximumValue": 5,
+            "defaultValue": 3,
+            "minimumValueDescription": "1",
+            "maximumValueDescription": "5"
+        }
+    },
+    {
+        "stepIdentifier": {
+            "id": "6"
+        },
+        "type": "question",
+        "title": "How long do you leave the kitchen faucet running each day?",
+        "answerFormat": {
+            "type": "single",
+            "hint": "Be honest. Do you waste water taking long, hot showers? A 10-minute shower uses 25 gallons or more. Challenge yourself by keeping the time to the length of two songs.",
+            "textChoices": [{
+                "text": "UNDER 5 MIN",
+                "value": "UNDER 5 MIN"
+            },
+            {
+                "text": "5-20 MIN",
+                "value": "5-20 MIN"
+            },
+            {
+                "text": "21-45 MIN",
+                "value": "21-45 MIN"
+            },
+            {
+                "text": "OVER 45 MIN",
+                "value": "OVER 45 MIN"
+            }
+        ]
+        }
+    },
+    {
+        "stepIdentifier": {
+            "id": "7"
+        },
+        "type": "question",
+        "title": "Done?",
+        "text": "How do you wash your dishes?",
+        "answerFormat": {
+            "type": "multiple",
+            "otherField": true,
+            "textChoices": [{
+                    "text": "OLD SCHOOL DISHWASHER",
+                    "value": "OLD SCHOOL DISHWASHER"
+                },
+                {
+                    "text": "WATER ENERGY EFFICIENT DISHWASHER",
+                    "value": "WATER ENERGY EFFICIENT DISHWASHER"
+                },
+                {
+                    "text": "WITH MY OWN TWO HANDS",
+                    "value": "WITH MY OWN TWO HANDS"
+                },
+                {
+                    "text": "TRASH THEM OR EAT OUT",
+                    "value": "TRASH THEM OR EAT OUT"
+                }
+            ]
+        }
+    },
+    {
+        "stepIdentifier": {
+            "id": "8"
+        },
+        "type": "question",
+        "title": "How do you do laundry?",
+        "answerFormat": {
+            "type": "multiple",
+            "otherField": true,
+            "textChoices": [{
+                    "text": "OLD SCHOOL DISHWASHER",
+                    "value": "OLD SCHOOL DISHWASHER"
+                },
+                {
+                    "text": "WATER ENERGY EFFICIENT DISHWASHER",
+                    "value": "WATER ENERGY EFFICIENT DISHWASHER"
+                },
+                {
+                    "text": "WITH MY OWN TWO HANDS",
+                    "value": "WITH MY OWN TWO HANDS"
+                },
+                {
+                    "text": "TRASH THEM OR EAT OUT",
+                    "value": "TRASH THEM OR EAT OUT"
+                }
+            ]
+        }
+    },
+    {
+        "stepIdentifier": {
+            "id": "9"
+        },
+        "type": "question",
+        "title": "Do you have a greywater system installed in your home?",
+        "answerFormat": {
+            "type": "single",
+            "positiveAnswer": "HECK, YES!",
+            "negativeAnswer": "NO",
+            "result": "POSITIVE"
+        }
+    }
+    ]
+}
